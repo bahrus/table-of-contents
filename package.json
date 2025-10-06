@@ -13,8 +13,21 @@
   "license": "MIT",
   "author": "",
   "type": "module",
-  "main": "index.js",
+  "main": "toc-ky.js",
+  "module": "toc-ky.js",
+  "exports": {
+    ".": "./toc-ky.js",
+    "./toc-ky.js": "./toc-ky.js"
+  },
+  "files": [
+    "*.js"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node ./node_modules/spa-ssi/serve.js",
+    "update": "ncu -u && npm install"
+  },
+  "devDependencies": {
+    "spa-ssi": "0.0.23"
   }
 }

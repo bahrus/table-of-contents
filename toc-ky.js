@@ -1,4 +1,5 @@
 //@ts-check
+// Starting code from Claude AI
 
 class TableOfContents extends HTMLElement {
     constructor() {
@@ -14,7 +15,7 @@ class TableOfContents extends HTMLElement {
     render() {
         const headings = this.getHeadings();
         
-        const style = `
+        const style = String.raw `
             <style>
                 :host {
                     display: block;
@@ -185,4 +186,4 @@ class TableOfContents extends HTMLElement {
     }
 }
 
-customElements.define('table-of-contents', TableOfContents);
+customElements.define('toc-ky', TableOfContents);
