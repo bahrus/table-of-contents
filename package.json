@@ -1,0 +1,20 @@
+{
+  "name": "table-of-contents",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "https://github.com/bahrus/table-of-contents#readme",
+  "bugs": {
+    "url": "https://github.com/bahrus/table-of-contents/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahrus/table-of-contents.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
