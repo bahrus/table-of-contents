@@ -143,7 +143,7 @@ class TableOfContents extends HTMLElement {
         
         links.forEach(link => {
             link.addEventListener('click', (e) => {
-                e.preventDefault();
+                //e.preventDefault();
                 const targetId = link.getAttribute('data-target');
                 const target = document.getElementById(targetId);
                 
