@@ -132,7 +132,7 @@ class TableOfContents extends HTMLElement {
             
             return `
                 <li class="toc-item" data-level="${level}">
-                    <a href="#${id}" class="toc-link" data-target="${id}">${text}</a>
+                    <a href="#${id}" popovertargetaction="hide" class="toc-link" data-target="${id}">${text}</a>
                 </li>
             `;
         }).join('');
