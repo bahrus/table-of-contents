@@ -28,6 +28,6 @@
     "update": "ncu -u && npm install"
   },
   "devDependencies": {
-    "spa-ssi": "0.0.23"
+    "spa-ssi": "0.0.27"
   }
 }
